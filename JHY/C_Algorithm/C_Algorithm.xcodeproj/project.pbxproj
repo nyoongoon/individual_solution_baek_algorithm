@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2D719F826944844005721DB /* while a + b loop.c in Sources */ = {isa = PBXBuildFile; fileRef = C2D719F726944844005721DB /* while a + b loop.c */; };
+		C2ECB0C62695444200D253D5 /* max.c in Sources */ = {isa = PBXBuildFile; fileRef = C2ECB0C52695444200D253D5 /* max.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +53,9 @@
 		C2D719F726944844005721DB /* while a + b loop.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "while a + b loop.c"; sourceTree = "<group>"; };
 		C2E6060F2693459100ECBA35 /* C_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E606122693459100ECBA35 /* a % b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a % b.c"; sourceTree = "<group>"; };
+		C2ECB0BF2695345B00D253D5 /* add cycle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "add cycle.c"; sourceTree = "<group>"; };
+		C2ECB0C226953C2700D253D5 /* max,min.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "max,min.c"; sourceTree = "<group>"; };
+		C2ECB0C52695444200D253D5 /* max.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = max.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,7 @@
 			children = (
 				C2D719F526944581005721DB /* while a + b.c */,
 				C2D719F726944844005721DB /* while a + b loop.c */,
+				C2ECB0BF2695345B00D253D5 /* add cycle.c */,
 			);
 			path = lv4;
 			sourceTree = "<group>";
@@ -142,12 +146,22 @@
 		C2E606112693459100ECBA35 /* C_Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				C2ECB0C126953C1600D253D5 /* lv5 */,
 				C2D719F126944543005721DB /* lv4 */,
 				C204B8932694131D00B358C1 /* lv3 */,
 				C2261DE9269409E700D8815D /* lv2 */,
 				C2B0BC502693468F00A26D56 /* lv1 */,
 			);
 			path = C_Algorithm;
+			sourceTree = "<group>";
+		};
+		C2ECB0C126953C1600D253D5 /* lv5 */ = {
+			isa = PBXGroup;
+			children = (
+				C2ECB0C226953C2700D253D5 /* max,min.c */,
+				C2ECB0C52695444200D253D5 /* max.c */,
+			);
+			path = lv5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2D719F826944844005721DB /* while a + b loop.c in Sources */,
+				C2ECB0C62695444200D253D5 /* max.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
