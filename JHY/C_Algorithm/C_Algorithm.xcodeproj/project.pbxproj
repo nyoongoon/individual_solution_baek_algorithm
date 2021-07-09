@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2ECB0C62695444200D253D5 /* max.c in Sources */ = {isa = PBXBuildFile; fileRef = C2ECB0C52695444200D253D5 /* max.c */; };
+		C24B92E42696FE15006415B2 /* hansoo.c in Sources */ = {isa = PBXBuildFile; fileRef = C24B92E32696FE15006415B2 /* hansoo.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +31,13 @@
 		C2261DE7269407C400D8815D /* multiply.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = multiply.c; sourceTree = "<group>"; };
 		C2261DEA26940A2400D8815D /* compare two numbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "compare two numbers.c"; sourceTree = "<group>"; };
 		C23669BD269439470052F310 /* gugudan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gugudan.c; sourceTree = "<group>"; };
+		C24B92DA2696D15C006415B2 /* OX.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OX.c; sourceTree = "<group>"; };
+		C24B92DC2696E792006415B2 /* over the average.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "over the average.c"; sourceTree = "<group>"; };
+		C24B92DF2696F3A2006415B2 /* plus all integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "plus all integer.c"; sourceTree = "<group>"; };
+		C24B92E12696FA60006415B2 /* self number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "self number.c"; sourceTree = "<group>"; };
+		C24B92E32696FE15006415B2 /* hansoo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hansoo.c; sourceTree = "<group>"; };
+		C26252FA269685FF001816DA /* rest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rest.c; sourceTree = "<group>"; };
+		C26252FC26968A9B001816DA /* average.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = average.c; sourceTree = "<group>"; };
 		C2B0BC512693470300A26D56 /* a - b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a - b.c"; sourceTree = "<group>"; };
 		C2B0BC532693471600A26D56 /* a + b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a + b.c"; sourceTree = "<group>"; };
 		C2B0BC552693473100A26D56 /* a x b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a x b.c"; sourceTree = "<group>"; };
@@ -53,6 +60,7 @@
 		C2D719F726944844005721DB /* while a + b loop.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "while a + b loop.c"; sourceTree = "<group>"; };
 		C2E6060F2693459100ECBA35 /* C_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E606122693459100ECBA35 /* a % b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a % b.c"; sourceTree = "<group>"; };
+		C2E8D98B2695E85900C375D6 /* the number of digit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "the number of digit.c"; sourceTree = "<group>"; };
 		C2ECB0BF2695345B00D253D5 /* add cycle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "add cycle.c"; sourceTree = "<group>"; };
 		C2ECB0C226953C2700D253D5 /* max,min.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "max,min.c"; sourceTree = "<group>"; };
 		C2ECB0C52695444200D253D5 /* max.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = max.c; sourceTree = "<group>"; };
@@ -97,6 +105,16 @@
 				C204B89126940FA700B358C1 /* alarm.c */,
 			);
 			path = lv2;
+			sourceTree = "<group>";
+		};
+		C24B92DE2696F372006415B2 /* lv6 */ = {
+			isa = PBXGroup;
+			children = (
+				C24B92DF2696F3A2006415B2 /* plus all integer.c */,
+				C24B92E12696FA60006415B2 /* self number.c */,
+				C24B92E32696FE15006415B2 /* hansoo.c */,
+			);
+			path = lv6;
 			sourceTree = "<group>";
 		};
 		C2B0BC502693468F00A26D56 /* lv1 */ = {
@@ -146,6 +164,7 @@
 		C2E606112693459100ECBA35 /* C_Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				C24B92DE2696F372006415B2 /* lv6 */,
 				C2ECB0C126953C1600D253D5 /* lv5 */,
 				C2D719F126944543005721DB /* lv4 */,
 				C204B8932694131D00B358C1 /* lv3 */,
@@ -160,6 +179,11 @@
 			children = (
 				C2ECB0C226953C2700D253D5 /* max,min.c */,
 				C2ECB0C52695444200D253D5 /* max.c */,
+				C2E8D98B2695E85900C375D6 /* the number of digit.c */,
+				C26252FA269685FF001816DA /* rest.c */,
+				C26252FC26968A9B001816DA /* average.c */,
+				C24B92DA2696D15C006415B2 /* OX.c */,
+				C24B92DC2696E792006415B2 /* over the average.c */,
 			);
 			path = lv5;
 			sourceTree = "<group>";
@@ -220,7 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2ECB0C62695444200D253D5 /* max.c in Sources */,
+				C24B92E42696FE15006415B2 /* hansoo.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,3 @@
-//  왜 temp를 따로 설정해줘야 하는지..? temp를 따로 설정하지 않으면 왜 시간에러가 뜨는지..?
-
 #include <stdio.h>
 
 int main(void)

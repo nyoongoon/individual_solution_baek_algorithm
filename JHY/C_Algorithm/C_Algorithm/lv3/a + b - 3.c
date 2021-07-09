@@ -1,5 +1,3 @@
-//C17에선 오답인데, C99에선 정답..?
-
 #include <stdio.h>
 
 int main(void)
