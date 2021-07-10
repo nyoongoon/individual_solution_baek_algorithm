@@ -1,26 +1,24 @@
-#include <stdio.h>
+# include <stdio.h>
 
 int main(void)
 {
-    int n, i = 0;
+    int a, b ,c , n , l = 0;
+    int v = 100;
     scanf("%d", &n);
-    int sum = 99;
-    int a = n / 100;
-    int b = (n - a * 100) / 10;
-    int c = n - a * 100 - b * 10;
-    if(n < 100)
-    {
-        printf("%d\n", b);
+    if(n < 100) { //100보다 작은 수는 모두 한수
+        printf("%d\n", n);
     }
-    else
-    {
-        for(int i = 0; i < n - sum + 1; i++)
+    else {
+        while(v <= n) // n까지 loop을 돌려야 함. 그러므로 v를 설정해서 n까지 올림.
         {
-            if((b - a) == (c - b))
-                i++;
+            a = v / 100; // 100 의자리
+            b = (v % 100) / 10; // 10의 자리
+            c = (v % 100) % 10; // 1의 자리
+            if((b-a) == (c-b))
+                l++;
+            v++;
         }
-        printf("%d\n", i + sum);
+        printf("%d\n",l+99);
     }
-
     return 0;
 }
