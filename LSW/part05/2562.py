@@ -9,4 +9,4 @@ max=r2[-1]
 idx=r1.index(max)
 
 print(max)
-print(idx)
+print(idx+1)

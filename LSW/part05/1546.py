@@ -12,6 +12,5 @@ for i in range(len(slist)):
     slist[i]=(slist[i]/max)*100
     sum=sum+slist[i]
 
-print(sum)
 avg=sum/len(slist)
 print(avg)

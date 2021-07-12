@@ -14,6 +14,7 @@ while(1):
         c=(10*b)+c
     else:
         c=(10*b)+c%10
+        #14
 
     count=count+1
     if c==input_value:
