@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C218E58C26A51EE700C12F15 /* prime number.c in Sources */ = {isa = PBXBuildFile; fileRef = C218E58B26A51EE700C12F15 /* prime number.c */; };
+		C2ED0DCC26A5D53B004B431D /* ACM Hotel.c in Sources */ = {isa = PBXBuildFile; fileRef = C2ED0DCB26A5D53B004B431D /* ACM Hotel.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +70,7 @@
 		C2ECB0BF2695345B00D253D5 /* add cycle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "add cycle.c"; sourceTree = "<group>"; };
 		C2ECB0C226953C2700D253D5 /* max,min.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "max,min.c"; sourceTree = "<group>"; };
 		C2ECB0C52695444200D253D5 /* max.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = max.c; sourceTree = "<group>"; };
+		C2ED0DCB26A5D53B004B431D /* ACM Hotel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ACM Hotel.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +136,7 @@
 				C249DC1426998D4C00F9881B /* break-even-point.c */,
 				C218E58826A50DF700C12F15 /* To find a fraction.c */,
 				C218E58B26A51EE700C12F15 /* prime number.c */,
+				C2ED0DCB26A5D53B004B431D /* ACM Hotel.c */,
 			);
 			path = lv8;
 			sourceTree = "<group>";
@@ -288,7 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C218E58C26A51EE700C12F15 /* prime number.c in Sources */,
+				C2ED0DCC26A5D53B004B431D /* ACM Hotel.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
