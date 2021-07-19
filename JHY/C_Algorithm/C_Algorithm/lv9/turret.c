@@ -1,34 +1,29 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 int main(void)
 {
-    double x1, y1, x2, y2, r1, r2, neg, pos,dist;
-    int n= 0;
-    int box, arr[n];
+    int n, sum, diff;
+    int x1, y1, r1, x2, y2, r2;
+    double d;
+    int result = 0;
     scanf("%d", &n);
     for(int i = 0; i < n; i++)
     {
-        scanf("%lf %lf %lf %lf %lf %lf",&x1,&y1,&r1,&x2,&y2,&r2);
-        neg = r2 - r1;
-        pos = r1 + r2;
-        dist = sqrt((x2-x1)*(x2-x1) +(y2-y1)*(y2-y1));
-        if(neg >dist)
-            box = 0;
-        else if(neg == dist)
-            box = 1;
-        else if(pos < dist)
-            box = 0;
-        else if(pos > dist)
-            box = 2;
-        else if(pos == dist)
-            box = 1;
+        scanf("%d %d %d %d %d %d", &x1, &y1, &r1, &x2, &y2, &r2);
+        d = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2)); // 두 원점 사이의 거리
+        sum = r1 + r2; // 두 반지름의 합
+        diff = abs(r1-r2); // 두 반지름의 차이
+        if(d == 0 & diff == 0)
+            result = -1;
+        else if(diff < d & d < sum)
+            result = 2;
+        else if(diff == d || sum == d)
+            result = 1;
         else
-            box = -1;
-        arr[i] =  box;
-        box = 0;
+            result = 0;
+        printf("%d\n", result);
     }
-    for(int i = 0; i < n; i++)
-        printf("%d\n", arr[i]);
     return 0;
 }

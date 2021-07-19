@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C220B91E269E90090066C12C /* hanoitower.c in Sources */ = {isa = PBXBuildFile; fileRef = C220B91D269E90090066C12C /* hanoitower.c */; };
+		C218E58C26A51EE700C12F15 /* prime number.c in Sources */ = {isa = PBXBuildFile; fileRef = C218E58B26A51EE700C12F15 /* prime number.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +27,8 @@
 		C204B88D26940D1800B358C1 /* leap year.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "leap year.c"; sourceTree = "<group>"; };
 		C204B88F26940ED300B358C1 /* quadrant.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = quadrant.c; sourceTree = "<group>"; };
 		C204B89126940FA700B358C1 /* alarm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = alarm.c; sourceTree = "<group>"; };
+		C218E58826A50DF700C12F15 /* To find a fraction.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "To find a fraction.c"; sourceTree = "<group>"; };
+		C218E58B26A51EE700C12F15 /* prime number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "prime number.c"; sourceTree = "<group>"; };
 		C220B91D269E90090066C12C /* hanoitower.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hanoitower.c; sourceTree = "<group>"; };
 		C2261DE5269405C900D8815D /* remainder.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = remainder.c; sourceTree = "<group>"; };
 		C2261DE7269407C400D8815D /* multiply.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = multiply.c; sourceTree = "<group>"; };
@@ -131,6 +133,8 @@
 			children = (
 				C249DC1226997BF200F9881B /* snail wanna go up.c */,
 				C249DC1426998D4C00F9881B /* break-even-point.c */,
+				C218E58826A50DF700C12F15 /* To find a fraction.c */,
+				C218E58B26A51EE700C12F15 /* prime number.c */,
 			);
 			path = lv8;
 			sourceTree = "<group>";
@@ -284,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C220B91E269E90090066C12C /* hanoitower.c in Sources */,
+				C218E58C26A51EE700C12F15 /* prime number.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

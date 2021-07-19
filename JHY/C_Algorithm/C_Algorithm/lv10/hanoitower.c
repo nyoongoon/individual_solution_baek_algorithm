@@ -21,7 +21,7 @@ void hanoi_tower(int n, char from, char tmp, char to)
     }
 }
 
-//#include <stdio.h>3
+//#include <stdio.h>
 //int factorial(int n)
 //{
 ////    n * (n-1) * (n-2) ...2 * 1 / 1이 될때 탈출!
@@ -30,11 +30,11 @@ void hanoi_tower(int n, char from, char tmp, char to)
 //    return n*factorial(n-1);
 //}
 //
-//5*(factorial(4))
-//5*4*(factorial(3))
-//5*4*3*(factorial(2))
-//5*4*3*2*(factorial(1))
-//5*4*3*2*1
+////5*(factorial(4))
+////5*4*(factorial(3))
+////5*4*3*(factorial(2))
+////5*4*3*2*(factorial(1))
+////5*4*3*2*1
 //
 //int main(void)
 //{
