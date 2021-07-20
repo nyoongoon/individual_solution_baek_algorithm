@@ -2,22 +2,23 @@
 
 int main(void)
 {
-    int primeNum, n = 2;
-    int M, N = 0;
-    scanf("%d %d", &M, &N);
-    if(M > N)
+    int primeNum, N, M;
+    scanf("%d", &N);
+
+    for(int i = 2; i < N; i++)
     {
-        printf("-1\n");
-        while(N < M)
+        M = 2;
+        while (1)
         {
-            if(primeNum % n == 0)
-            {
-                printf("-1");
+            if(N == M)
                 break;
+            if(i % M != 0)
+            {
+                printf("%d\n", i);
             }
-            n++;
-            printf("소수\n");
+            M++;
         }
     }
-    return 0;
+
+    
 }
