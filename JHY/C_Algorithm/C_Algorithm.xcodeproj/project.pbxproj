@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C25304F126A6AB5B00B6CC3D /* hive.c in Sources */ = {isa = PBXBuildFile; fileRef = C25304F026A6AB5B00B6CC3D /* hive.c */; };
+		C29A5A5626A7029F0056A16D /* 10757.c in Sources */ = {isa = PBXBuildFile; fileRef = C29A5A5526A7029F0056A16D /* 10757.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,24 +27,25 @@
 		C204B88D26940D1800B358C1 /* leap year.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "leap year.c"; sourceTree = "<group>"; };
 		C204B88F26940ED300B358C1 /* quadrant.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = quadrant.c; sourceTree = "<group>"; };
 		C204B89126940FA700B358C1 /* alarm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = alarm.c; sourceTree = "<group>"; };
-		C218E58826A50DF700C12F15 /* To find a fraction.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "To find a fraction.c"; sourceTree = "<group>"; };
-		C218E58B26A51EE700C12F15 /* prime number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "prime number.c"; sourceTree = "<group>"; };
-		C220B91D269E90090066C12C /* hanoitower.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hanoitower.c; sourceTree = "<group>"; };
+		C218E58826A50DF700C12F15 /* 1193.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1193.c; sourceTree = "<group>"; };
+		C218E58B26A51EE700C12F15 /* 2581.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2581.c; sourceTree = "<group>"; };
+		C220B91D269E90090066C12C /* 11729.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 11729.c; sourceTree = "<group>"; };
 		C2261DE5269405C900D8815D /* remainder.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = remainder.c; sourceTree = "<group>"; };
 		C2261DE7269407C400D8815D /* multiply.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = multiply.c; sourceTree = "<group>"; };
 		C2261DEA26940A2400D8815D /* compare two numbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "compare two numbers.c"; sourceTree = "<group>"; };
 		C23669BD269439470052F310 /* gugudan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gugudan.c; sourceTree = "<group>"; };
-		C249DC1226997BF200F9881B /* snail wanna go up.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "snail wanna go up.c"; sourceTree = "<group>"; };
-		C249DC1426998D4C00F9881B /* break-even-point.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "break-even-point.c"; sourceTree = "<group>"; };
-		C249DC1726998F4400F9881B /* turret.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = turret.c; sourceTree = "<group>"; };
+		C249DC1226997BF200F9881B /* 2869.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2869.c; sourceTree = "<group>"; };
+		C249DC1426998D4C00F9881B /* 1712.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1712.c; sourceTree = "<group>"; };
+		C249DC1726998F4400F9881B /* 1002.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1002.c; sourceTree = "<group>"; };
 		C24B92DA2696D15C006415B2 /* OX.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OX.c; sourceTree = "<group>"; };
 		C24B92DC2696E792006415B2 /* over the average.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "over the average.c"; sourceTree = "<group>"; };
 		C24B92DF2696F3A2006415B2 /* plus all integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "plus all integer.c"; sourceTree = "<group>"; };
 		C24B92E12696FA60006415B2 /* self number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "self number.c"; sourceTree = "<group>"; };
 		C24B92E32696FE15006415B2 /* hansoo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hansoo.c; sourceTree = "<group>"; };
-		C25304F026A6AB5B00B6CC3D /* hive.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hive.c; sourceTree = "<group>"; };
+		C25304F026A6AB5B00B6CC3D /* 2292.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2292.c; sourceTree = "<group>"; };
 		C26252FA269685FF001816DA /* rest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rest.c; sourceTree = "<group>"; };
 		C26252FC26968A9B001816DA /* average.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = average.c; sourceTree = "<group>"; };
+		C29A5A5526A7029F0056A16D /* 10757.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 10757.c; sourceTree = "<group>"; };
 		C2B0BC512693470300A26D56 /* a - b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a - b.c"; sourceTree = "<group>"; };
 		C2B0BC532693471600A26D56 /* a + b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a + b.c"; sourceTree = "<group>"; };
 		C2B0BC552693473100A26D56 /* a x b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a x b.c"; sourceTree = "<group>"; };
@@ -71,7 +72,7 @@
 		C2ECB0BF2695345B00D253D5 /* add cycle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "add cycle.c"; sourceTree = "<group>"; };
 		C2ECB0C226953C2700D253D5 /* max,min.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "max,min.c"; sourceTree = "<group>"; };
 		C2ECB0C52695444200D253D5 /* max.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = max.c; sourceTree = "<group>"; };
-		C2ED0DCB26A5D53B004B431D /* ACM Hotel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ACM Hotel.c"; sourceTree = "<group>"; };
+		C2ED0DCB26A5D53B004B431D /* 10250.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 10250.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +107,7 @@
 		C220B91C269E8F660066C12C /* lv10 */ = {
 			isa = PBXGroup;
 			children = (
-				C220B91D269E90090066C12C /* hanoitower.c */,
+				C220B91D269E90090066C12C /* 11729.c */,
 			);
 			path = lv10;
 			sourceTree = "<group>";
@@ -133,12 +134,12 @@
 		C249DC1126997BAE00F9881B /* lv8 */ = {
 			isa = PBXGroup;
 			children = (
-				C249DC1226997BF200F9881B /* snail wanna go up.c */,
-				C249DC1426998D4C00F9881B /* break-even-point.c */,
-				C218E58826A50DF700C12F15 /* To find a fraction.c */,
-				C218E58B26A51EE700C12F15 /* prime number.c */,
-				C2ED0DCB26A5D53B004B431D /* ACM Hotel.c */,
-				C25304F026A6AB5B00B6CC3D /* hive.c */,
+				C249DC1226997BF200F9881B /* 2869.c */,
+				C249DC1426998D4C00F9881B /* 1712.c */,
+				C218E58826A50DF700C12F15 /* 1193.c */,
+				C2ED0DCB26A5D53B004B431D /* 10250.c */,
+				C25304F026A6AB5B00B6CC3D /* 2292.c */,
+				C29A5A5526A7029F0056A16D /* 10757.c */,
 			);
 			path = lv8;
 			sourceTree = "<group>";
@@ -146,7 +147,8 @@
 		C249DC1626998F3600F9881B /* lv9 */ = {
 			isa = PBXGroup;
 			children = (
-				C249DC1726998F4400F9881B /* turret.c */,
+				C218E58B26A51EE700C12F15 /* 2581.c */,
+				C249DC1726998F4400F9881B /* 1002.c */,
 			);
 			path = lv9;
 			sourceTree = "<group>";
@@ -292,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C25304F126A6AB5B00B6CC3D /* hive.c in Sources */,
+				C29A5A5626A7029F0056A16D /* 10757.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
