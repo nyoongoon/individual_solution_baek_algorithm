@@ -2,23 +2,14 @@
 
 int main(void)
 {
-    int primeNum, N, M;
-    scanf("%d", &N);
-
+    int N,M;
+    scanf("%d %d", &N, &M);
     for(int i = 2; i < N; i++)
     {
-        M = 2;
-        while (1)
+        for(int l = 1; l < i; l++)
         {
-            if(N == M)
-                break;
-            if(i % M != 0)
-            {
-                printf("%d\n", i);
-            }
-            M++;
+            if(i % l != 0)
         }
     }
-
-    
+    return 0;
 }
