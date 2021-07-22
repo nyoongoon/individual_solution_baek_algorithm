@@ -9,5 +9,5 @@ height = int(v[2])
 day = (height-down)/(up-down)
 if day == int(day):
     print(int(day))
-else:
+else:  # day != int(day)
     print(int(day)+1)
