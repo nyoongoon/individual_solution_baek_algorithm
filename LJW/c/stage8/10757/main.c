@@ -17,7 +17,7 @@ char* reverse(char* string){
             return string;
 }
 
-char* Add_string(char* string1,char* string2)환
+ void Add_string(char* string1,char* string2)환
     int n1,n2,n_sum;
     char sum_string[10002];
 
@@ -78,12 +78,12 @@ char* Add_string(char* string1,char* string2)환
                     
                         printf("%s\n",reverse(sum_string));//출력
 
-            return 0;
+           
 }
 
 int main(){
     char string1[10001];
-    char string2[10002];
+    char string2[10001];
 
 
         scanf("%s %s",string1,string2);
