@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2470A3126A8FF09001C33FA /* 2581.c in Sources */ = {isa = PBXBuildFile; fileRef = C218E58B26A51EE700C12F15 /* 2581.c */; };
+		C2B34BA826ABEBC400CF69A1 /* 9020.c in Sources */ = {isa = PBXBuildFile; fileRef = C2B34BA726ABEBC400CF69A1 /* 9020.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,6 +54,7 @@
 		C2B0BC5B2693478F00A26D56 /* dog.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dog.c; sourceTree = "<group>"; };
 		C2B0BC5D269347FC00A26D56 /* helloworld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = helloworld.c; sourceTree = "<group>"; };
 		C2B0BC5F2693481200A26D56 /* welovekrii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = welovekrii.c; sourceTree = "<group>"; };
+		C2B34BA726ABEBC400CF69A1 /* 9020.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 9020.c; sourceTree = "<group>"; };
 		C2D719DC26943B47005721DB /* a + b - 3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a + b - 3.c"; sourceTree = "<group>"; };
 		C2D719DF26943DE9005721DB /* add.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = add.c; sourceTree = "<group>"; };
 		C2D719E126943EE5005721DB /* fast a + b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "fast a + b.c"; sourceTree = "<group>"; };
@@ -149,6 +150,7 @@
 			children = (
 				C218E58B26A51EE700C12F15 /* 2581.c */,
 				C249DC1726998F4400F9881B /* 1002.c */,
+				C2B34BA726ABEBC400CF69A1 /* 9020.c */,
 			);
 			path = lv9;
 			sourceTree = "<group>";
@@ -294,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2470A3126A8FF09001C33FA /* 2581.c in Sources */,
+				C2B34BA826ABEBC400CF69A1 /* 9020.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
