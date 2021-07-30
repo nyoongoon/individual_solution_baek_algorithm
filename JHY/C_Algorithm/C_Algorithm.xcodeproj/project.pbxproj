@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2B34BA826ABEBC400CF69A1 /* 9020.c in Sources */ = {isa = PBXBuildFile; fileRef = C2B34BA726ABEBC400CF69A1 /* 9020.c */; };
+		C23E9DA426B401D300A6308D /* 11720.c in Sources */ = {isa = PBXBuildFile; fileRef = C23E9DA326B401D300A6308D /* 11720.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +34,8 @@
 		C2261DE7269407C400D8815D /* multiply.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = multiply.c; sourceTree = "<group>"; };
 		C2261DEA26940A2400D8815D /* compare two numbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "compare two numbers.c"; sourceTree = "<group>"; };
 		C23669BD269439470052F310 /* gugudan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gugudan.c; sourceTree = "<group>"; };
+		C23E9DA126B4015400A6308D /* 11654.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 11654.c; sourceTree = "<group>"; };
+		C23E9DA326B401D300A6308D /* 11720.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 11720.c; sourceTree = "<group>"; };
 		C249DC1226997BF200F9881B /* 2869.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2869.c; sourceTree = "<group>"; };
 		C249DC1426998D4C00F9881B /* 1712.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1712.c; sourceTree = "<group>"; };
 		C249DC1726998F4400F9881B /* 1002.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1002.c; sourceTree = "<group>"; };
@@ -128,6 +130,8 @@
 		C249DC1026997BA700F9881B /* lv7 */ = {
 			isa = PBXGroup;
 			children = (
+				C23E9DA126B4015400A6308D /* 11654.c */,
+				C23E9DA326B401D300A6308D /* 11720.c */,
 			);
 			path = lv7;
 			sourceTree = "<group>";
@@ -296,7 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2B34BA826ABEBC400CF69A1 /* 9020.c in Sources */,
+				C23E9DA426B401D300A6308D /* 11720.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
