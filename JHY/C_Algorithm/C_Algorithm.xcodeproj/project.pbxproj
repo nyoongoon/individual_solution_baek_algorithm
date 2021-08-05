@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		C2D13BCB26BBCDA900EDF65C /* 1436.c in Sources */ = {isa = PBXBuildFile; fileRef = C2D13BCA26BBCDA900EDF65C /* 1436.c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		C2E6060D2693459100ECBA35 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,6 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C200ADDD26BBEA500045FBE5 /* SearchAlgorithm.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SearchAlgorithm.md; sourceTree = "<group>"; };
 		C204B88B26940C2D00B358C1 /* covert score to grade.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "covert score to grade.c"; sourceTree = "<group>"; };
 		C204B88D26940D1800B358C1 /* leap year.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "leap year.c"; sourceTree = "<group>"; };
 		C204B88F26940ED300B358C1 /* quadrant.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = quadrant.c; sourceTree = "<group>"; };
@@ -94,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C200ADDA26BBE9F40045FBE5 /* WeeklyStudy */ = {
+			isa = PBXGroup;
+			children = (
+				C200ADDD26BBEA500045FBE5 /* SearchAlgorithm.md */,
+			);
+			path = WeeklyStudy;
+			sourceTree = "<group>";
+		};
 		C204B8932694131D00B358C1 /* lv3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +245,7 @@
 		C2E606112693459100ECBA35 /* C_Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				C200ADDA26BBE9F40045FBE5 /* WeeklyStudy */,
 				C2D13BC726BBBB1C00EDF65C /* lv11 */,
 				C2E1DCD826B6576C0010178E /* lv21 */,
 				C220B91C269E8F660066C12C /* lv10 */,
@@ -326,7 +332,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2D13BCB26BBCDA900EDF65C /* 1436.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
