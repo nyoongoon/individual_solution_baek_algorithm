@@ -16,7 +16,7 @@ int main(void)
     return 0;
 }
 
-bool prime(n)
+bool prime(n) // 소수 찾는 알고리즘.
 {
     int i = 0;
     for(i = 2; i < n; i++)
