@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2E1DCDC26B658490010178E /* 1978.c in Sources */ = {isa = PBXBuildFile; fileRef = C2E1DCDB26B658490010178E /* 1978.c */; };
+		C2D13BCB26BBCDA900EDF65C /* 1436.c in Sources */ = {isa = PBXBuildFile; fileRef = C2D13BCA26BBCDA900EDF65C /* 1436.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +57,8 @@
 		C2B0BC5D269347FC00A26D56 /* helloworld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = helloworld.c; sourceTree = "<group>"; };
 		C2B0BC5F2693481200A26D56 /* welovekrii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = welovekrii.c; sourceTree = "<group>"; };
 		C2B34BA726ABEBC400CF69A1 /* 9020.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 9020.c; sourceTree = "<group>"; };
+		C2D13BC826BBBB2C00EDF65C /* 2798.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2798.c; sourceTree = "<group>"; };
+		C2D13BCA26BBCDA900EDF65C /* 1436.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1436.c; sourceTree = "<group>"; };
 		C2D719DC26943B47005721DB /* a + b - 3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a + b - 3.c"; sourceTree = "<group>"; };
 		C2D719DF26943DE9005721DB /* add.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = add.c; sourceTree = "<group>"; };
 		C2D719E126943EE5005721DB /* fast a + b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "fast a + b.c"; sourceTree = "<group>"; };
@@ -192,6 +194,15 @@
 			path = lv1;
 			sourceTree = "<group>";
 		};
+		C2D13BC726BBBB1C00EDF65C /* lv11 */ = {
+			isa = PBXGroup;
+			children = (
+				C2D13BC826BBBB2C00EDF65C /* 2798.c */,
+				C2D13BCA26BBCDA900EDF65C /* 1436.c */,
+			);
+			path = lv11;
+			sourceTree = "<group>";
+		};
 		C2D719F126944543005721DB /* lv4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +240,7 @@
 		C2E606112693459100ECBA35 /* C_Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				C2D13BC726BBBB1C00EDF65C /* lv11 */,
 				C2E1DCD826B6576C0010178E /* lv21 */,
 				C220B91C269E8F660066C12C /* lv10 */,
 				C249DC1626998F3600F9881B /* lv9 */,
@@ -314,7 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2E1DCDC26B658490010178E /* 1978.c in Sources */,
+				C2D13BCB26BBCDA900EDF65C /* 1436.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
