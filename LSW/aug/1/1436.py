@@ -10,4 +10,4 @@ for i in range(0, 10):
     else:
         number = i*1000+666
         number_list.append(number)
-print(number_list[v-1])
+print(number_list)
