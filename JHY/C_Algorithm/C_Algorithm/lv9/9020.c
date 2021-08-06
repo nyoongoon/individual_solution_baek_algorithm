@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <stdbool.h>
 
 bool prime(int number); //소수면 return 1 , 소수 아니면 return 0;
 

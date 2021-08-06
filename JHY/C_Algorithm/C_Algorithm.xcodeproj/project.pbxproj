@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C23DC7BE26BCD58900CD310E /* 4948.c in Sources */ = {isa = PBXBuildFile; fileRef = C23DC7BD26BCD58900CD310E /* 4948.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		C2E6060D2693459100ECBA35 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,6 +28,7 @@
 		C204B88D26940D1800B358C1 /* leap year.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "leap year.c"; sourceTree = "<group>"; };
 		C204B88F26940ED300B358C1 /* quadrant.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = quadrant.c; sourceTree = "<group>"; };
 		C204B89126940FA700B358C1 /* alarm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = alarm.c; sourceTree = "<group>"; };
+		C211A4A926BD2C63003FC3F5 /* isPrime?.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "isPrime?.md"; sourceTree = "<group>"; };
 		C218E58826A50DF700C12F15 /* 1193.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1193.c; sourceTree = "<group>"; };
 		C218E58B26A51EE700C12F15 /* 2581.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2581.c; sourceTree = "<group>"; };
 		C220B91D269E90090066C12C /* 11729.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 11729.c; sourceTree = "<group>"; };
@@ -32,6 +37,8 @@
 		C2261DEA26940A2400D8815D /* compare two numbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "compare two numbers.c"; sourceTree = "<group>"; };
 		C23669BD269439470052F310 /* gugudan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gugudan.c; sourceTree = "<group>"; };
 		C23DC7BB26BCD42E00CD310E /* Pointer.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Pointer.md; sourceTree = "<group>"; };
+		C23DC7BC26BCD4EC00CD310E /* SQL vs NoSQL.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "SQL vs NoSQL.md"; sourceTree = "<group>"; };
+		C23DC7BD26BCD58900CD310E /* 4948.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4948.c; sourceTree = "<group>"; };
 		C23E9DA126B4015400A6308D /* 11654.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 11654.c; sourceTree = "<group>"; };
 		C23E9DA326B401D300A6308D /* 11720.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 11720.c; sourceTree = "<group>"; };
 		C249DC1226997BF200F9881B /* 2869.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2869.c; sourceTree = "<group>"; };
@@ -97,6 +104,8 @@
 			children = (
 				C200ADDD26BBEA500045FBE5 /* SearchAlgorithm.md */,
 				C23DC7BB26BCD42E00CD310E /* Pointer.md */,
+				C23DC7BC26BCD4EC00CD310E /* SQL vs NoSQL.md */,
+				C211A4A926BD2C63003FC3F5 /* isPrime?.md */,
 			);
 			path = WeeklyStudy;
 			sourceTree = "<group>";
@@ -169,6 +178,7 @@
 				C249DC1726998F4400F9881B /* 1002.c */,
 				C2B34BA726ABEBC400CF69A1 /* 9020.c */,
 				C2E1DCDB26B658490010178E /* 1978.c */,
+				C23DC7BD26BCD58900CD310E /* 4948.c */,
 			);
 			path = lv9;
 			sourceTree = "<group>";
@@ -334,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C23DC7BE26BCD58900CD310E /* 4948.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
