@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C23DC7BE26BCD58900CD310E /* 4948.c in Sources */ = {isa = PBXBuildFile; fileRef = C23DC7BD26BCD58900CD310E /* 4948.c */; };
+		C2D20BF226BE35B70022EC82 /* 3053.c in Sources */ = {isa = PBXBuildFile; fileRef = C2D20BF126BE35B70022EC82 /* 3053.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +64,8 @@
 		C2B34BA726ABEBC400CF69A1 /* 9020.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 9020.c; sourceTree = "<group>"; };
 		C2D13BC826BBBB2C00EDF65C /* 2798.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2798.c; sourceTree = "<group>"; };
 		C2D13BCA26BBCDA900EDF65C /* 1436.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1436.c; sourceTree = "<group>"; };
+		C2D20BEF26BE2F370022EC82 /* 1929.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1929.c; sourceTree = "<group>"; };
+		C2D20BF126BE35B70022EC82 /* 3053.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3053.c; sourceTree = "<group>"; };
 		C2D719DC26943B47005721DB /* a + b - 3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a + b - 3.c"; sourceTree = "<group>"; };
 		C2D719DF26943DE9005721DB /* add.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = add.c; sourceTree = "<group>"; };
 		C2D719E126943EE5005721DB /* fast a + b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "fast a + b.c"; sourceTree = "<group>"; };
@@ -179,6 +181,8 @@
 				C2B34BA726ABEBC400CF69A1 /* 9020.c */,
 				C2E1DCDB26B658490010178E /* 1978.c */,
 				C23DC7BD26BCD58900CD310E /* 4948.c */,
+				C2D20BEF26BE2F370022EC82 /* 1929.c */,
+				C2D20BF126BE35B70022EC82 /* 3053.c */,
 			);
 			path = lv9;
 			sourceTree = "<group>";
@@ -344,7 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C23DC7BE26BCD58900CD310E /* 4948.c in Sources */,
+				C2D20BF226BE35B70022EC82 /* 3053.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
