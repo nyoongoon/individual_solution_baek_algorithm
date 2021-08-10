@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2D20BF226BE35B70022EC82 /* 3053.c in Sources */ = {isa = PBXBuildFile; fileRef = C2D20BF126BE35B70022EC82 /* 3053.c */; };
+		C2F47C1A26C0F00E00F6425B /* practice.c in Sources */ = {isa = PBXBuildFile; fileRef = C2F47C1926C0F00E00F6425B /* practice.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +53,8 @@
 		C26252FA269685FF001816DA /* rest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rest.c; sourceTree = "<group>"; };
 		C26252FC26968A9B001816DA /* average.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = average.c; sourceTree = "<group>"; };
 		C29A5A5526A7029F0056A16D /* 10757.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 10757.c; sourceTree = "<group>"; };
+		C29EE2DB26C273CD0022C7D6 /* 파일입출력.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "파일입출력.md"; sourceTree = "<group>"; };
+		C29EE2DE26C27C6C0022C7D6 /* 구조체.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "구조체.md"; sourceTree = "<group>"; };
 		C2B0BC512693470300A26D56 /* a - b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a - b.c"; sourceTree = "<group>"; };
 		C2B0BC532693471600A26D56 /* a + b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a + b.c"; sourceTree = "<group>"; };
 		C2B0BC552693473100A26D56 /* a x b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a x b.c"; sourceTree = "<group>"; };
@@ -88,6 +90,8 @@
 		C2ECB0C226953C2700D253D5 /* max,min.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "max,min.c"; sourceTree = "<group>"; };
 		C2ECB0C52695444200D253D5 /* max.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = max.c; sourceTree = "<group>"; };
 		C2ED0DCB26A5D53B004B431D /* 10250.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 10250.c; sourceTree = "<group>"; };
+		C2F47C1826C0EFC200F6425B /* 동적할당.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "동적할당.md"; sourceTree = "<group>"; };
+		C2F47C1926C0F00E00F6425B /* practice.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = practice.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,10 @@
 				C23DC7BB26BCD42E00CD310E /* Pointer.md */,
 				C23DC7BC26BCD4EC00CD310E /* SQL vs NoSQL.md */,
 				C211A4A926BD2C63003FC3F5 /* isPrime?.md */,
+				C2F47C1826C0EFC200F6425B /* 동적할당.md */,
+				C29EE2DB26C273CD0022C7D6 /* 파일입출력.md */,
+				C2F47C1926C0F00E00F6425B /* practice.c */,
+				C29EE2DE26C27C6C0022C7D6 /* 구조체.md */,
 			);
 			path = WeeklyStudy;
 			sourceTree = "<group>";
@@ -348,7 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2D20BF226BE35B70022EC82 /* 3053.c in Sources */,
+				C2F47C1A26C0F00E00F6425B /* practice.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
