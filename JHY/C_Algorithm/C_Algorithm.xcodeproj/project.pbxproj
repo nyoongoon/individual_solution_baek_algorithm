@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C28BC8E126C51B2D00D96B4D /* practice11.c in Sources */ = {isa = PBXBuildFile; fileRef = C28BC8E026C51B2D00D96B4D /* practice11.c */; };
+		C2AABD7826C61F6400D77165 /* 1018.c in Sources */ = {isa = PBXBuildFile; fileRef = C2AABD7726C61F6400D77165 /* 1018.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +63,7 @@
 		C29A5A5526A7029F0056A16D /* 10757.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 10757.c; sourceTree = "<group>"; };
 		C29EE2DB26C273CD0022C7D6 /* 파일입출력.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "파일입출력.md"; sourceTree = "<group>"; };
 		C29EE2DE26C27C6C0022C7D6 /* 구조체.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "구조체.md"; sourceTree = "<group>"; };
+		C2AABD7726C61F6400D77165 /* 1018.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1018.c; sourceTree = "<group>"; };
 		C2B0BC512693470300A26D56 /* a - b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a - b.c"; sourceTree = "<group>"; };
 		C2B0BC532693471600A26D56 /* a + b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a + b.c"; sourceTree = "<group>"; };
 		C2B0BC552693473100A26D56 /* a x b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a x b.c"; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 			children = (
 				C2D13BC826BBBB2C00EDF65C /* 2798.c */,
 				C2D13BCA26BBCDA900EDF65C /* 1436.c */,
+				C2AABD7726C61F6400D77165 /* 1018.c */,
 			);
 			path = lv11;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C28BC8E126C51B2D00D96B4D /* practice11.c in Sources */,
+				C2AABD7826C61F6400D77165 /* 1018.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
