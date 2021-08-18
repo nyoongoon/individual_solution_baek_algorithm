@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C230B84F26C8C08F00FD6293 /* practice.c in Sources */ = {isa = PBXBuildFile; fileRef = C230B84926C8AB2B00FD6293 /* practice.c */; };
+		C23FD7D026CBEFF900F1E9FD /* 10773.c in Sources */ = {isa = PBXBuildFile; fileRef = C23FD7CF26CBEFF900F1E9FD /* 10773.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +44,7 @@
 		C23DC7BD26BCD58900CD310E /* 4948.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4948.c; sourceTree = "<group>"; };
 		C23E9DA126B4015400A6308D /* 11654.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 11654.c; sourceTree = "<group>"; };
 		C23E9DA326B401D300A6308D /* 11720.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 11720.c; sourceTree = "<group>"; };
+		C23FD7CF26CBEFF900F1E9FD /* 10773.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 10773.c; sourceTree = "<group>"; };
 		C249DC1226997BF200F9881B /* 2869.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2869.c; sourceTree = "<group>"; };
 		C249DC1426998D4C00F9881B /* 1712.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1712.c; sourceTree = "<group>"; };
 		C249DC1726998F4400F9881B /* 1002.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1002.c; sourceTree = "<group>"; };
@@ -177,6 +178,14 @@
 				C230B84D26C8BF8600FD6293 /* Q13-2.c */,
 			);
 			path = 02.BasicDataStructure;
+			sourceTree = "<group>";
+		};
+		C23FD7CE26CBEFBE00F1E9FD /* lv18 */ = {
+			isa = PBXGroup;
+			children = (
+				C23FD7CF26CBEFF900F1E9FD /* 10773.c */,
+			);
+			path = lv18;
 			sourceTree = "<group>";
 		};
 		C249DC1026997BA700F9881B /* lv7 */ = {
@@ -314,6 +323,7 @@
 		C2E606112693459100ECBA35 /* C_Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				C23FD7CE26CBEFBE00F1E9FD /* lv18 */,
 				C28BC8D226C5138F00D96B4D /* DoIt */,
 				C200ADDA26BBE9F40045FBE5 /* WeeklyStudy */,
 				C2E1DCD826B6576C0010178E /* lv21 */,
@@ -402,7 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C230B84F26C8C08F00FD6293 /* practice.c in Sources */,
+				C23FD7D026CBEFF900F1E9FD /* 10773.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
