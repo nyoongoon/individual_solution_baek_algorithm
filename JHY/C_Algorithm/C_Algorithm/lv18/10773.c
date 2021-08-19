@@ -13,8 +13,8 @@ int main(void)
     int i = 0, j, n, sum = 0;
     int * arr = NULL;
     scanf("%d", &n);
-    arr = malloc(n * sizeof(int));
-    for(j = 0; j < n; j++)
+    arr = malloc(n * sizeof(int)); // 배열 만들기
+    for(j = 0; j < n; j++) // 배열에 숫자 담기 + 총 합 구하기!
     {
         scanf("%d", &arr[i]);
         if(arr[i] == 0) {
@@ -31,3 +31,7 @@ int main(void)
     return 0;
 }
 
+/* 예를 들어 5까지 배열.
+ a[0] a[1] a[2] a[3] a[4]
+   1    2    0
+ */

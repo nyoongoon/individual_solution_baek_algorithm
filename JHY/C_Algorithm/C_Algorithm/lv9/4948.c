@@ -38,4 +38,3 @@ bool prime(number) { // 소수 찾는 알고리즘.
     }
     return true;
 }
-

@@ -68,3 +68,4 @@ bool prime(int number) {
     return true;
 }
 ```
+시간 복잡도 = O(Nlog(logN))

@@ -10,3 +10,4 @@ int main(void)
     printf("%.6f\n%.6f\n", (M_PI * pow(r,2)), 2 * pow(r,2));
     return 0;
 }
+
