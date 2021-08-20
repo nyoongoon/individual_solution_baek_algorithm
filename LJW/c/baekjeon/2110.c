@@ -16,9 +16,7 @@ int main(){
     int House_location[N];
     int start,mid,end;
     int result =0;
-
-        scanf("%d",&House_location[0]);
-        for (int i = 1; i < N; i++)
+        for (int i = 0; i < N; i++)
         {
             scanf("%d",&House_location[i]);
             
@@ -30,19 +28,19 @@ int main(){
             end = House_location[N-1] - House_location[0];
 
                 while(start <= end){
-                   int Wifi_machine_tmep_count=1;
+                   int Wifi_machine_temp_count=1;
                    int prev_wifi=House_location[0];
                     mid = (start+end)/2;
 
                         for (int i = 0; i < N; i++)
                         {
                             if((House_location[i] - prev_wifi) >= mid){
-                                Wifi_machine_tmep_count++;
+                                Wifi_machine_temp_count++;
                                 prev_wifi=House_location[i];
                             }                            
                         }
 
-                                    if(Wifi_machine_tmep_count >= C){
+                                    if(Wifi_machine_temp_count >= C){
                                         result = mid;
                                         start = mid+1;
                                         
