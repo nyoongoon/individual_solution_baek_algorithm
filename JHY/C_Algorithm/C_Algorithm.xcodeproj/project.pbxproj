@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C23FD7D026CBEFF900F1E9FD /* 10773.c in Sources */ = {isa = PBXBuildFile; fileRef = C23FD7CF26CBEFF900F1E9FD /* 10773.c */; };
+		C2ADDA0F26D379430070BA71 /* 실습.c in Sources */ = {isa = PBXBuildFile; fileRef = C2ADDA0826D337580070BA71 /* 실습.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +67,10 @@
 		C29EE2DB26C273CD0022C7D6 /* 파일입출력.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "파일입출력.md"; sourceTree = "<group>"; };
 		C29EE2DE26C27C6C0022C7D6 /* 구조체.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "구조체.md"; sourceTree = "<group>"; };
 		C2AABD7726C61F6400D77165 /* 1018.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1018.c; sourceTree = "<group>"; };
+		C2ADDA0826D337580070BA71 /* 실습.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "실습.c"; sourceTree = "<group>"; };
+		C2ADDA0A26D3386E0070BA71 /* 재귀 알고리즘.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "재귀 알고리즘.md"; sourceTree = "<group>"; };
+		C2ADDA0B26D34B880070BA71 /* Q1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Q1.c; sourceTree = "<group>"; };
+		C2ADDA0D26D34D180070BA71 /* Q2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Q2.c; sourceTree = "<group>"; };
 		C2B0BC512693470300A26D56 /* a - b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a - b.c"; sourceTree = "<group>"; };
 		C2B0BC532693471600A26D56 /* a + b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a + b.c"; sourceTree = "<group>"; };
 		C2B0BC552693473100A26D56 /* a x b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a x b.c"; sourceTree = "<group>"; };
@@ -238,6 +242,7 @@
 		C28BC8D226C5138F00D96B4D /* DoIt */ = {
 			isa = PBXGroup;
 			children = (
+				C2ADDA0726D337370070BA71 /* 05.재귀 알고리즘 */,
 				C230B84826C8A6BF00FD6293 /* 02.BasicDataStructure */,
 				C28BC8D326C513AA00D96B4D /* 01.BasicAlgorithm */,
 			);
@@ -256,6 +261,18 @@
 				C28BC8E026C51B2D00D96B4D /* practice11.c */,
 			);
 			path = 01.BasicAlgorithm;
+			sourceTree = "<group>";
+		};
+		C2ADDA0726D337370070BA71 /* 05.재귀 알고리즘 */ = {
+			isa = PBXGroup;
+			children = (
+				C2ADDA0826D337580070BA71 /* 실습.c */,
+				C2ADDA0A26D3386E0070BA71 /* 재귀 알고리즘.md */,
+				C2ADDA0B26D34B880070BA71 /* Q1.c */,
+				C2ADDA0D26D34D180070BA71 /* Q2.c */,
+			);
+			name = "05.재귀 알고리즘";
+			path = "05.재귀 알고리즘";
 			sourceTree = "<group>";
 		};
 		C2B0BC502693468F00A26D56 /* lv1 */ = {
@@ -412,7 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C23FD7D026CBEFF900F1E9FD /* 10773.c in Sources */,
+				C2ADDA0F26D379430070BA71 /* 실습.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
