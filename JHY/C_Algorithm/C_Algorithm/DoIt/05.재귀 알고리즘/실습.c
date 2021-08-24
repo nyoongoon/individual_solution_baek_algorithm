@@ -1,20 +1,17 @@
 #include <stdio.h>
 
-void recur(int x) {
-    if( x > 0)
-    {
-        recur(x - 1);
-        printf("%d\n", x);
-        ;
-        recur(x - 2);
-    }
-}
+#ifndef ___IntStack
+#define ___IntStack
+
+typedef struct {
+    int max;
+    int ptr;
+    int *stk;
+} IntStack;
+
+int Initialize(IntStack *s, int max);
 
 int main(void)
 {
-    int x;
-    printf("정수를 입력하세요 : ");
-    scanf("%d", &x);
-    recur(x);
     return 0;
 }
