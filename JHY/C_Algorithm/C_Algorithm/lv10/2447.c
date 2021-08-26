@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-int Pivonac(int n);
+void star(int n);
 
 int main(void)
 {
-    
+    int n = 0;
+    scanf("%d", &n);
     return 0;
 }
 
-int Pivonac(n)
+void star(n)
 {
-    
-    return 0;
+    for()
 }
