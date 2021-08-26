@@ -20,13 +20,3 @@ def merge_sort(data):
     merged_array += upper[u:]
 
     return merged_array
-
-
-v = int(input())
-array = list()
-for i in range(v):
-    a = int(input())
-    array.append(a)
-
-for i in merge_sort(array):
-    print(i)
