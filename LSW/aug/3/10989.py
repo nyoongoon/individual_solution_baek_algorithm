@@ -12,3 +12,12 @@ for i in range(N):
 for i in range(len(result)):
     for j in range(result[i]):
         print(i)
+
+
+# 0 0 0 1 1 2 2 2 2 3 5 5 5
+
+# array=[3,2,4,1,0,3]
+# array2=[3,5,9,10,10,13]
+# output = [0,0,0,1,1,2,2,2,2,3,5,5,5]
+
+# O(N) > N logN

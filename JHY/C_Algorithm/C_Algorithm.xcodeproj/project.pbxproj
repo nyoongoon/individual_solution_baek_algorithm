@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C23FD7D026CBEFF900F1E9FD /* 10773.c in Sources */ = {isa = PBXBuildFile; fileRef = C23FD7CF26CBEFF900F1E9FD /* 10773.c */; };
+		C264D90626D5390B0018377A /* 2447.c in Sources */ = {isa = PBXBuildFile; fileRef = C264D90526D5390B0018377A /* 2447.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,6 +56,9 @@
 		C25304F026A6AB5B00B6CC3D /* 2292.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2292.c; sourceTree = "<group>"; };
 		C26252FA269685FF001816DA /* rest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rest.c; sourceTree = "<group>"; };
 		C26252FC26968A9B001816DA /* average.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = average.c; sourceTree = "<group>"; };
+		C264D90226D5351C0018377A /* 실습.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "실습.h"; sourceTree = "<group>"; };
+		C264D90326D5351C0018377A /* 실습.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "실습.c"; sourceTree = "<group>"; };
+		C264D90526D5390B0018377A /* 2447.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2447.c; sourceTree = "<group>"; };
 		C28BC8D426C513DD00D96B4D /* practice1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = practice1.c; sourceTree = "<group>"; };
 		C28BC8D626C5152700D96B4D /* practice2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = practice2.c; sourceTree = "<group>"; };
 		C28BC8D826C515C300D96B4D /* practice3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = practice3.c; sourceTree = "<group>"; };
@@ -67,6 +70,10 @@
 		C29EE2DB26C273CD0022C7D6 /* 파일입출력.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "파일입출력.md"; sourceTree = "<group>"; };
 		C29EE2DE26C27C6C0022C7D6 /* 구조체.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "구조체.md"; sourceTree = "<group>"; };
 		C2AABD7726C61F6400D77165 /* 1018.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1018.c; sourceTree = "<group>"; };
+		C2ADDA0826D337580070BA71 /* 실습.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "실습.c"; sourceTree = "<group>"; };
+		C2ADDA0A26D3386E0070BA71 /* 재귀 알고리즘.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "재귀 알고리즘.md"; sourceTree = "<group>"; };
+		C2ADDA0B26D34B880070BA71 /* Q1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Q1.c; sourceTree = "<group>"; };
+		C2ADDA0D26D34D180070BA71 /* Q2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Q2.c; sourceTree = "<group>"; };
 		C2B0BC512693470300A26D56 /* a - b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a - b.c"; sourceTree = "<group>"; };
 		C2B0BC532693471600A26D56 /* a + b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a + b.c"; sourceTree = "<group>"; };
 		C2B0BC552693473100A26D56 /* a x b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a x b.c"; sourceTree = "<group>"; };
@@ -76,6 +83,7 @@
 		C2B0BC5D269347FC00A26D56 /* helloworld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = helloworld.c; sourceTree = "<group>"; };
 		C2B0BC5F2693481200A26D56 /* welovekrii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = welovekrii.c; sourceTree = "<group>"; };
 		C2B34BA726ABEBC400CF69A1 /* 9020.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 9020.c; sourceTree = "<group>"; };
+		C2B4B68126D533410070BDA0 /* 스택.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "스택.md"; sourceTree = "<group>"; };
 		C2D13BC826BBBB2C00EDF65C /* 2798.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2798.c; sourceTree = "<group>"; };
 		C2D13BCA26BBCDA900EDF65C /* 1436.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1436.c; sourceTree = "<group>"; };
 		C2D20BEF26BE2F370022EC82 /* 1929.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1929.c; sourceTree = "<group>"; };
@@ -154,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				C220B91D269E90090066C12C /* 11729.c */,
+				C264D90526D5390B0018377A /* 2447.c */,
 			);
 			path = lv10;
 			sourceTree = "<group>";
@@ -238,6 +247,8 @@
 		C28BC8D226C5138F00D96B4D /* DoIt */ = {
 			isa = PBXGroup;
 			children = (
+				C2B4B68026D533280070BDA0 /* 04.스택과 큐 */,
+				C2ADDA0726D337370070BA71 /* 05.재귀 알고리즘 */,
 				C230B84826C8A6BF00FD6293 /* 02.BasicDataStructure */,
 				C28BC8D326C513AA00D96B4D /* 01.BasicAlgorithm */,
 			);
@@ -258,6 +269,18 @@
 			path = 01.BasicAlgorithm;
 			sourceTree = "<group>";
 		};
+		C2ADDA0726D337370070BA71 /* 05.재귀 알고리즘 */ = {
+			isa = PBXGroup;
+			children = (
+				C2ADDA0826D337580070BA71 /* 실습.c */,
+				C2ADDA0A26D3386E0070BA71 /* 재귀 알고리즘.md */,
+				C2ADDA0B26D34B880070BA71 /* Q1.c */,
+				C2ADDA0D26D34D180070BA71 /* Q2.c */,
+			);
+			name = "05.재귀 알고리즘";
+			path = "05.재귀 알고리즘";
+			sourceTree = "<group>";
+		};
 		C2B0BC502693468F00A26D56 /* lv1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +297,17 @@
 				C2261DE7269407C400D8815D /* multiply.c */,
 			);
 			path = lv1;
+			sourceTree = "<group>";
+		};
+		C2B4B68026D533280070BDA0 /* 04.스택과 큐 */ = {
+			isa = PBXGroup;
+			children = (
+				C2B4B68126D533410070BDA0 /* 스택.md */,
+				C264D90226D5351C0018377A /* 실습.h */,
+				C264D90326D5351C0018377A /* 실습.c */,
+			);
+			name = "04.스택과 큐";
+			path = "04.스택과 큐";
 			sourceTree = "<group>";
 		};
 		C2D13BC726BBBB1C00EDF65C /* lv11 */ = {
@@ -412,7 +446,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C23FD7D026CBEFF900F1E9FD /* 10773.c in Sources */,
+				C264D90626D5390B0018377A /* 2447.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
