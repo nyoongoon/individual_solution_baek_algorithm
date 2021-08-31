@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2F199C226D78F0600D46DB6 /* 2447.c in Sources */ = {isa = PBXBuildFile; fileRef = C264D90526D5390B0018377A /* 2447.c */; };
+		C22D779C26DE2A05006043FF /* pad.c in Sources */ = {isa = PBXBuildFile; fileRef = C22D779B26DE2A05006043FF /* pad.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +35,7 @@
 		C2261DE5269405C900D8815D /* remainder.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = remainder.c; sourceTree = "<group>"; };
 		C2261DE7269407C400D8815D /* multiply.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = multiply.c; sourceTree = "<group>"; };
 		C2261DEA26940A2400D8815D /* compare two numbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "compare two numbers.c"; sourceTree = "<group>"; };
+		C22D779B26DE2A05006043FF /* pad.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pad.c; sourceTree = "<group>"; };
 		C230B84926C8AB2B00FD6293 /* practice.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = practice.c; path = C_Algorithm/DoIt/01.BasicAlgorithm/practice.c; sourceTree = SOURCE_ROOT; };
 		C230B84B26C8BD4300FD6293 /* Q13-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q13-1.c"; sourceTree = "<group>"; };
 		C230B84D26C8BF8600FD6293 /* Q13-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q13-2.c"; sourceTree = "<group>"; };
@@ -56,8 +57,8 @@
 		C25304F026A6AB5B00B6CC3D /* 2292.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2292.c; sourceTree = "<group>"; };
 		C26252FA269685FF001816DA /* rest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rest.c; sourceTree = "<group>"; };
 		C26252FC26968A9B001816DA /* average.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = average.c; sourceTree = "<group>"; };
-		C264D90226D5351C0018377A /* 실습.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "실습.h"; sourceTree = "<group>"; };
-		C264D90326D5351C0018377A /* 실습.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "실습.c"; sourceTree = "<group>"; };
+		C264D90226D5351C0018377A /* 실습_스택.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "실습_스택.h"; sourceTree = "<group>"; };
+		C264D90326D5351C0018377A /* 실습_스택.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "실습_스택.c"; sourceTree = "<group>"; };
 		C264D90526D5390B0018377A /* 2447.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2447.c; sourceTree = "<group>"; };
 		C28BC8D426C513DD00D96B4D /* practice1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = practice1.c; sourceTree = "<group>"; };
 		C28BC8D626C5152700D96B4D /* practice2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = practice2.c; sourceTree = "<group>"; };
@@ -114,6 +115,9 @@
 		C2F199BF26D78D5300D46DB6 /* 10870.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 10870.c; sourceTree = "<group>"; };
 		C2F47C1826C0EFC200F6425B /* 동적할당.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "동적할당.md"; sourceTree = "<group>"; };
 		C2F47C1926C0F00E00F6425B /* practice.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = practice.c; sourceTree = "<group>"; };
+		C2F8174426DCC48900DF78A0 /* 큐.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "큐.md"; sourceTree = "<group>"; };
+		C2F8174526DCC58000DF78A0 /* 실습_큐.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "실습_큐.h"; sourceTree = "<group>"; };
+		C2F8174626DCC58000DF78A0 /* 실습_큐.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "실습_큐.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +131,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C200ADDA26BBE9F40045FBE5 /* WeeklyStudy */ = {
+		C200ADDA26BBE9F40045FBE5 /* C */ = {
 			isa = PBXGroup;
 			children = (
 				C200ADDD26BBEA500045FBE5 /* SearchAlgorithm.md */,
@@ -138,8 +142,9 @@
 				C29EE2DB26C273CD0022C7D6 /* 파일입출력.md */,
 				C2F47C1926C0F00E00F6425B /* practice.c */,
 				C29EE2DE26C27C6C0022C7D6 /* 구조체.md */,
+				C22D779B26DE2A05006043FF /* pad.c */,
 			);
-			path = WeeklyStudy;
+			path = C;
 			sourceTree = "<group>";
 		};
 		C204B8932694131D00B358C1 /* lv3 */ = {
@@ -307,8 +312,11 @@
 			isa = PBXGroup;
 			children = (
 				C2B4B68126D533410070BDA0 /* 스택.md */,
-				C264D90226D5351C0018377A /* 실습.h */,
-				C264D90326D5351C0018377A /* 실습.c */,
+				C264D90226D5351C0018377A /* 실습_스택.h */,
+				C264D90326D5351C0018377A /* 실습_스택.c */,
+				C2F8174426DCC48900DF78A0 /* 큐.md */,
+				C2F8174526DCC58000DF78A0 /* 실습_큐.h */,
+				C2F8174626DCC58000DF78A0 /* 실습_큐.c */,
 			);
 			name = "04.스택과 큐";
 			path = "04.스택과 큐";
@@ -361,7 +369,7 @@
 		C2E606112693459100ECBA35 /* C_Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				C200ADDA26BBE9F40045FBE5 /* WeeklyStudy */,
+				C200ADDA26BBE9F40045FBE5 /* C */,
 				C28BC8D226C5138F00D96B4D /* DoIt */,
 				C2E1DCD826B6576C0010178E /* lv21 */,
 				C23FD7CE26CBEFBE00F1E9FD /* lv18 */,
@@ -450,7 +458,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F199C226D78F0600D46DB6 /* 2447.c in Sources */,
+				C22D779C26DE2A05006043FF /* pad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
