@@ -4,20 +4,31 @@
 
 n, m = map(int, input().split())
 
-s = []
+stack = []
 
 
 def f():
-    if len(s) == m:
-        print(' '.join(map(str, s)))
+    if len(stack) == m:
+        print(' '.join(map(str, stack))) # [1,2,4] -> 1 2 4
         return
 
     for i in range(1, n + 1):
-        if i in s:
+        if i in stack:
             continue
-        s.append(i)
+        stack.append(i)
         f()
-        s.pop()
+        stack.pop()
 
 
 f()
+
+0
+|
+1 - 3 - 2
+      - 4
+  - 4
+2
+
+3
+
+4
