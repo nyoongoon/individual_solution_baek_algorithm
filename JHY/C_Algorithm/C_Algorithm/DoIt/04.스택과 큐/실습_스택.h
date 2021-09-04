@@ -4,9 +4,9 @@
 
 /*---스택을 구현하는 구조체---*/
 typedef struct {
-    int max;
-    int ptr;
-    int *stk;
+    int max; // 스택의 최대 용량
+    int ptr; // 스택에 쌓여있는 데이터의 개수를 나타내는 멤버
+    int *stk; // 스택에 푸시된 데이터를 저장할 용도로 배열을 가리키는 포인터
 } IntStack;
 
 /*---스택 초기화---*/
