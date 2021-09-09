@@ -2,7 +2,7 @@
 
 def stars(n):  # star list의 별모양을 입력값으로 받음, 처음 들어오는 입력값의 len == 3
     matrix = []
-    for i in range(3 * len(n)):  # range : 9
+    for i in range(3 * len(n)):  # range : 9 1 1 2 3 4 5 6 7 8 9
         if i // len(n) == 1:  # i가 9일 때
             matrix.append(n[i % len(n)] + " " * len(n) + n[i %
                           len(n)])  # append되는 값은 중간에 빈 것
@@ -12,6 +12,9 @@ def stars(n):  # star list의 별모양을 입력값으로 받음, 처음 들어
 
 
 star = ["***", "* *", "***"]  # 기본 모양, v=1과 같음
+# ***
+# * *
+# ***
 v = int(input())  # input
 k = 0  # 반복 횟수
 while v != 3:  # 반복횟수 구하기 위해 3으로 제곱나눔
