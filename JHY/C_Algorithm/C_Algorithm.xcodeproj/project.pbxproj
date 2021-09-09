@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2569C2B26E3766C009C4ADC /* 2447.c in Sources */ = {isa = PBXBuildFile; fileRef = C264D90526D5390B0018377A /* 2447.c */; };
+		C2D2349E26E9A7EC00717953 /* 2839.c in Sources */ = {isa = PBXBuildFile; fileRef = C2D2349D26E9A7EC00717953 /* 2839.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,8 @@
 		C204B88D26940D1800B358C1 /* leap year.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "leap year.c"; sourceTree = "<group>"; };
 		C204B88F26940ED300B358C1 /* quadrant.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = quadrant.c; sourceTree = "<group>"; };
 		C204B89126940FA700B358C1 /* alarm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = alarm.c; sourceTree = "<group>"; };
+		C206F35826E8FCF900820D60 /* 정렬.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "정렬.md"; sourceTree = "<group>"; };
+		C206F35A26E8FFE400820D60 /* 1010.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1010.c; sourceTree = "<group>"; };
 		C211A4A926BD2C63003FC3F5 /* isPrime?.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "isPrime?.md"; sourceTree = "<group>"; };
 		C218E58826A50DF700C12F15 /* 1193.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1193.c; sourceTree = "<group>"; };
 		C218E58B26A51EE700C12F15 /* 2581.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2581.c; sourceTree = "<group>"; };
@@ -91,6 +93,10 @@
 		C2D13BCA26BBCDA900EDF65C /* 1436.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1436.c; sourceTree = "<group>"; };
 		C2D20BEF26BE2F370022EC82 /* 1929.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1929.c; sourceTree = "<group>"; };
 		C2D20BF126BE35B70022EC82 /* 3053.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3053.c; sourceTree = "<group>"; };
+		C2D2349626E98C4F00717953 /* 11725.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 11725.c; sourceTree = "<group>"; };
+		C2D2349826E9A48000717953 /* 1085.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1085.c; sourceTree = "<group>"; };
+		C2D2349B26E9A5CB00717953 /* ohters1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ohters1.c; sourceTree = "<group>"; };
+		C2D2349D26E9A7EC00717953 /* 2839.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2839.c; sourceTree = "<group>"; };
 		C2D719DC26943B47005721DB /* a + b - 3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "a + b - 3.c"; sourceTree = "<group>"; };
 		C2D719DF26943DE9005721DB /* add.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = add.c; sourceTree = "<group>"; };
 		C2D719E126943EE5005721DB /* fast a + b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "fast a + b.c"; sourceTree = "<group>"; };
@@ -167,6 +173,23 @@
 			path = lv3;
 			sourceTree = "<group>";
 		};
+		C206F35726E8FCD800820D60 /* 06.정렬 */ = {
+			isa = PBXGroup;
+			children = (
+				C206F35826E8FCF900820D60 /* 정렬.md */,
+			);
+			name = "06.정렬";
+			path = "06.정렬";
+			sourceTree = "<group>";
+		};
+		C206F35926E8FFCC00820D60 /* lv17 */ = {
+			isa = PBXGroup;
+			children = (
+				C206F35A26E8FFE400820D60 /* 1010.c */,
+			);
+			path = lv17;
+			sourceTree = "<group>";
+		};
 		C220B91C269E8F660066C12C /* lv10 */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +250,7 @@
 				C25304F026A6AB5B00B6CC3D /* 2292.c */,
 				C29A5A5526A7029F0056A16D /* 10757.c */,
 				C2E1DCD626B6475A0010178E /* 1011.c */,
+				C2D2349D26E9A7EC00717953 /* 2839.c */,
 			);
 			path = lv8;
 			sourceTree = "<group>";
@@ -242,6 +266,7 @@
 				C2D20BEF26BE2F370022EC82 /* 1929.c */,
 				C2D20BF126BE35B70022EC82 /* 3053.c */,
 				C2F199BD26D7779B00D46DB6 /* 2775.c */,
+				C2D2349826E9A48000717953 /* 1085.c */,
 			);
 			path = lv9;
 			sourceTree = "<group>";
@@ -259,6 +284,7 @@
 		C28BC8D226C5138F00D96B4D /* DoIt */ = {
 			isa = PBXGroup;
 			children = (
+				C206F35726E8FCD800820D60 /* 06.정렬 */,
 				C2B4B68026D533280070BDA0 /* 04.스택과 큐 */,
 				C2ADDA0726D337370070BA71 /* 05.재귀 알고리즘 */,
 				C230B84826C8A6BF00FD6293 /* 02.BasicDataStructure */,
@@ -336,6 +362,22 @@
 			path = lv11;
 			sourceTree = "<group>";
 		};
+		C2D2349526E98C2C00717953 /* lv28 */ = {
+			isa = PBXGroup;
+			children = (
+				C2D2349626E98C4F00717953 /* 11725.c */,
+			);
+			path = lv28;
+			sourceTree = "<group>";
+		};
+		C2D2349A26E9A56000717953 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				C2D2349B26E9A5CB00717953 /* ohters1.c */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
 		C2D719F126944543005721DB /* lv4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -373,10 +415,13 @@
 		C2E606112693459100ECBA35 /* C_Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				C2D2349A26E9A56000717953 /* others */,
 				C200ADDA26BBE9F40045FBE5 /* C */,
 				C28BC8D226C5138F00D96B4D /* DoIt */,
+				C2D2349526E98C2C00717953 /* lv28 */,
 				C2E1DCD826B6576C0010178E /* lv21 */,
 				C23FD7CE26CBEFBE00F1E9FD /* lv18 */,
+				C206F35926E8FFCC00820D60 /* lv17 */,
 				C2D13BC726BBBB1C00EDF65C /* lv11 */,
 				C220B91C269E8F660066C12C /* lv10 */,
 				C249DC1626998F3600F9881B /* lv9 */,
@@ -462,7 +507,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2569C2B26E3766C009C4ADC /* 2447.c in Sources */,
+				C2D2349E26E9A7EC00717953 /* 2839.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

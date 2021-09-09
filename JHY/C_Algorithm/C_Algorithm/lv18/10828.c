@@ -87,7 +87,6 @@ int main(void)
     char order[10];
     int x = 0;
     int n = 0;
-    int k = 0;
     scanf("%d", &n);
     while (1) {
         if(n <= 0)
