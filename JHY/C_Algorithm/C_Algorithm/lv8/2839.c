@@ -15,7 +15,7 @@ int main(void)
     
     if(weight % 3 == 0)
         temp1 = weight / 3;
-    
+
     for(i = weight / 5; i > 0; i--)
     {
         if((weight - 5 * i) % 3 == 0 )
