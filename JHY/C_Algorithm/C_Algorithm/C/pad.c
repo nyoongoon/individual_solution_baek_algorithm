@@ -1,18 +1,17 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(void)
 {
-    int i = 10;
-    double f = 12.3;
-    int *pi = NULL;
-    double * pf = NULL;
+    char arr[100] = "I wanna go to Germany";
+    char arr2[100] = "I wanna go to Germany";
+    int boolean = 0;
     
-    pi = &i;
-    pf = &f;
+    boolean = strcmp(arr, arr2);
     
-    printf("%u %u\n", pi, &i);
-    printf("%u %u\n", pf, &f);
-    printf("%d %d\n", i, *pi);
-    printf("%d %d\n", f, *pf);
+    if(boolean == 0)
+        printf("같은 스트링 입니다.\n");
+    else
+        printf("다른 스트링 입니다.\n");
     return 0;
 }
