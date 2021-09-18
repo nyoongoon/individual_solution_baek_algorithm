@@ -29,6 +29,7 @@ int main(){
     apart_ment();
 
     for (int i = 0; i < test_case; ++i) {
+        
 
        scanf("%d %d",&k,&n);
         printf("%d\n",apart[k-1][n-1]);
